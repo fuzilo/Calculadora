@@ -12,6 +12,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.fatec.calculadora.ui.components.Calculadora
 import com.fatec.calculadora.ui.components.CounterScreen
 import com.fatec.calculadora.ui.theme.CalculadoraTheme
 
@@ -37,7 +38,8 @@ class MainActivity : ComponentActivity() {
                         //um botão com símbolo "="
                         //ao clickar no botão igual, realizar a operação input1 (operação) input2 (igual) -> resultado
                         //resultado deve aparecer no primeiro card
-                        CounterScreen()
+                        //CounterScreen()
+                        Calculadora()
                     }
                 }
             }
