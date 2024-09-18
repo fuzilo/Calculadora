@@ -27,6 +27,16 @@ class MainActivity : ComponentActivity() {
                             .fillMaxSize()
                             .padding(innerPadding)
                     ) {
+                        //Colocar uma caixa de texto para receber os resultados
+                        //Vai ser um card que recebe valores de cálculo
+                        //uma caixa de texto para primeiro imput
+                            //Vai ser um card que recebe valores digitados
+                        //quatro botões com as operações básicas
+                        //Uma caixa de texto para segundo input
+                            //Vai ser um card que recebe valores digitados
+                        //um botão com símbolo "="
+                        //ao clickar no botão igual, realizar a operação input1 (operação) input2 (igual) -> resultado
+                        //resultado deve aparecer no primeiro card
                         CounterScreen()
                     }
                 }
